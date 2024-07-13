@@ -4,6 +4,7 @@ Description
 Welcome to the Pac-Man Game Simulation repository! This project is a simulation of the classic Pac-Man game , WITHOUT using any game development libraries.
 
 Features
+
 Variety of Dots: The game includes different types of dots for Pac-Man to eat, adding variety to the gameplay.
 Randomized Elements:
 Big Dots: Placed randomly each time the game starts or is restarted.
