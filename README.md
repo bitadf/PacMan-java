@@ -7,8 +7,7 @@ Features
 
 Variety of Dots: The game includes different types of dots for Pac-Man to eat, adding variety to the gameplay.
 
-Randomized Elements:
-
+    Randomized Elements:
     Big Dots: Placed randomly each time the game starts or is restarted.
     Ghosts: Positions are randomized at the start of each game or when restarting.
     Pac-Man: Starts at a random position in every new game or restart.
