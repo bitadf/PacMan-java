@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import com.example.demo2.View?>
+
+<?import javafx.scene.control.Label?>
+<BorderPane style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Controller">
+    <top>
+        <BorderPane prefHeight="35" style="-fx-background-color: black; -fx-padding: 10px, 5px, 10px, 5px" >
+            <center><Label fx:id="gameLabel" style="-fx-font-size: 200%; -fx-text-fill: white" /></center>
+            <right> <Label fx:id="gide1" style="-fx-font-size: 120%; -fx-text-fill: white" /></right>
+            <left> <Label fx:id="gide2" style="-fx-font-size: 120%; -fx-text-fill: white" /></left>
+
+        </BorderPane>
+    </top>
+    <center>
+        <View fx:id="view" />
+    </center>
+    <bottom>
+        <BorderPane prefHeight="35" style="-fx-background-color:#046287; -fx-padding: 10px, 5px, 10px, 5px" >
+            <center><Label fx:id="scoreLabel" style="-fx-font-size: 150%; -fx-text-fill: white" /></center>
+
+        </BorderPane>
+    </bottom>
+</BorderPane>
